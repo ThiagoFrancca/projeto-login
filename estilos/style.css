@@ -42,3 +42,12 @@ div#formulario{
     padding: 10px;
     display: block;
 }
+
+div#formulario > p{
+    font-size: 0.8em;
+}
+
+div#formulario > h1{
+    font-size: 2em;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: width 0.5s, heigth 0.5s;
+    transition-timing-function: ease;
+}
+section#login > div#imagem{
+    background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: left bottom;
+    display: block;
+
+}
+div#formulario{
+    padding: 10px;
+    display: block;
+}

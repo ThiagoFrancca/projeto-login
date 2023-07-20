@@ -58,9 +58,24 @@ div#campo{
     border-radius: 5px;
     color: white;
     height: 40px;
-    
+    border: 2px solid  #5f2c82;;
 
 
+}
+
+div#campo> span{
+    font-size: 2em;
+    padding:5px;
+    width: 40px;
+
+}
+div#campo > input{
+background-color:  #ffffff;
+font-size: 1em;
+height: 100%;
+border-radius: 5px;
+width: calc(100% - 45px);
+transform:translateY(-12px)
 }
 
 input[type=submit]{
@@ -77,6 +92,7 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color: #87d6d4;
     cursor: pointer;
+    border: 1px solid #49a09d;
 }
 form > a.botao{
     text-align: center;
